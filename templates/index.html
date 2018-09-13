@@ -1,0 +1,3 @@
+{% for speedtest in speedtests %}
+  {{speedtest.timestamp}}: ping = {{speedtest.ping}} ms, download = {{speedtest.download}} Mbit/s, upload = {{speedtest.upload}} Mbit/s<br/>
+{% endfor %}
